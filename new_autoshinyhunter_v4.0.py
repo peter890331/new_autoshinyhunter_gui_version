@@ -101,10 +101,10 @@ def save_strings():
     # new_strings = {k: v for k, v in new_strings.items() if v}
 
     if new_strings:
-        stored_strings.update(new_strings)      # 更新字典
-        save_strings_to_file(stored_strings)    # 將字串字典保存到 parameter.json
+        stored_strings.update(new_strings)                                      # 更新字典
+        save_strings_to_file(stored_strings)                                    # 將字串字典保存到 parameter.json
         # messagebox.showinfo("儲存成功", f"已儲存 {len(new_strings)} 個字串。")
-        show_home_frame()                       # 儲存後返回首頁
+        show_home_frame()                                                       # 儲存後返回首頁
     else:
         messagebox.showwarning("輸入錯誤", "請輸入字串。")
 
@@ -856,8 +856,7 @@ def setting():
     tutorial_label_3.pack(pady=5, anchor="w")           # 添加标签到窗口中
 
     def open_link(event):
-        # 在这里放置您的链接
-        webbrowser.open("https://github.com/peter890331/new_autoshinyhunter_gui_version")  # 例如：打开一个网页链接
+        webbrowser.open("https://github.com/peter890331/new_autoshinyhunter_gui_version")
 
     # 创建一个超链接
     link = tk.Label(tutorial_window, text="                                                 GitHub", fg="blue", cursor="hand2", font=medium_font)  # 设置文本颜色和光标样式
@@ -881,15 +880,13 @@ def author():
     author_label_2.pack(pady=5)
     author_label_3 = tk.Label(author_window, text="❗ 警告：僅以此練習程式編寫，請勿在遊戲中使用外掛，否則後果自負！本人對此內容不負任何法律責任。 ❗\n"
                                                   "❗ WARNING: Practice programming only, please do not use it to cheat on the game! ❗\n"
-                                                  "❗ The consequences are your own! I will not be responsible for any law liability to this content. ❗\n",
-                              font=small_font)
+                                                  "❗ The consequences are your own! I will not be responsible for any law liability to this content. ❗\n", font=small_font)
     author_label_3.pack(pady=5)
     author_label_4 = tk.Label(author_window, text="      如果對於我的背景還感興趣，可以點擊查看更多：", wraplength=1000)
     author_label_4.pack(pady=5, anchor="w")
 
     def open_link(event):
-        # 在这里放置您的链接
-        webbrowser.open("https://github.com/peter890331")   # 例如：打开一个网页链接
+        webbrowser.open("https://github.com/peter890331")
 
     # 创建一个超链接
     link = tk.Label(author_window, text="                                                              GitHub", fg="blue", cursor="hand2", font=medium_font)                       # 设置文本颜色和光标样式
