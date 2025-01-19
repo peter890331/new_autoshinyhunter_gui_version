@@ -56,7 +56,7 @@ For users, you can directly download the final version in Releases, it contains 
      
      > Need to set capture parameters and crawler data for the first time to use,  
      > or occasionally need to update the csrftoken and sessionid in crawler data;  
-     > or need to change capture parameters if want to catch different Pokémons than last time.
+     > or need to change capture parameters if you want to catch different pokémons than last time.
 
      \- 確認設定完成後，直接點擊下方 開始運行腳本！  
      &nbsp;&nbsp;&nbsp;*After confirming the settings are complete, click below "開始運行腳本" to start the script!*
@@ -67,31 +67,118 @@ For users, you can directly download the final version in Releases, it contains 
      After clicking "參數設定", will jump to the Setting page, and will also bring up the Setting tutorial, the descriptions of settings as follows:
      - channelid：  
      想要爬蟲的DC伺服器中Pokedex100的頻道ID，  
-     *The channel ID of the Pokedex100 in the DC server that want to crawl,*
+     *The channel ID of the Pokedex100 in the DC server that you want to crawl,*
 
          在網頁版DC伺服器中Pokedex100的頻道的 F12 - Network - message?limit=50 - Request URl，  
      *F12 - Network - message?limit=50 - Request URl, for Pokedex100's channel in the web version of the DC server,*
      
-       > Log in to the web version of DC, go to Pokedex100 and find the channel that want to crawl,  
+       > Log in to the web version of DC server, go to Pokedex100 and find the channel that you want to crawl,  
        > click F12, then click F5 to refresh,  
        > then on the right screen, click Network - message?limit=50 - Request URl in order,  
-       > that's the string of numbers in the Request URl, and paste it into the input box for channelid.
+       > that's the string of numbers in the Request URl, and paste it into the input box for "請輸入 channelid".
 
        <img src= "https://github.com/peter890331/new_autoshinyhunter_gui_version/blob/figures/channelid%201.png" width="500px">
      
          或網頁版DC伺服器中Pokedex100的頻道的網址最後一段數字。  
      *or the last string of numbers of the URL for Pokedex100's channel in the web version of the DC server.*
 
-       > Log in to the web version of DC, go to Pokedex100 and find the channel that want to crawl,  
-       > paste the last string of numbers of the URL into the input box for channelid.
+       > Log in to the web version of DC server, go to Pokedex100 and find the channel that you want to crawl,  
+       > paste the last string of numbers of the URL into the input box for "請輸入 channelid".
 
-         <img src= "https://github.com/peter890331/new_autoshinyhunter_gui_version/blob/figures/channelid%202.png" width="500px">
+       <img src= "https://github.com/peter890331/new_autoshinyhunter_gui_version/blob/figures/channelid%202.png" width="500px">
 
      - L_wanted：
      想要捕捉的寶可夢至少等級。（限整數，預設為0）  
-     *The minimum level of Pokémons want to capture. (Limit to an integer, default is 0)*
+     *The minimum level of pokémons you want to catch. (Limit to an integer, default is 0)*
+
+       > Type in the input box for "請輸入 L_wanted".
 
      - more_check：
      想要多確認寶可夢是不是色違的次數（建議取決於該寶可夢的跳躍頻率）。（限整數，預設為0）  
-     *The number of times want to recheck whether the Pokémon is shiny or not (Recommend to depend on the jumping frequency of the Pokémon). (Limit to an integer, default is 0)*
-     
+     *The number of times of recheck whether the pokémon is shiny or not (Recommend to depend on the jumping frequency of the pokémon). (Limit to an integer, default is 0)*
+       > Type in the input box for "請輸入 more_check".
+
+     - check_delay：
+     想要多確認寶可夢是否色違的間隔（建議取決於該寶可夢的上下移動頻率）。（限整數，預設為2）  
+     *The delay time of recheck whether the pokémon is shiny or not (Recommend to depend on the up and down frequency of the pokémon). (Limit to an integer, default is 2)*
+
+       > Type in the input box for "請輸入 check_delay".
+       
+     - wifi_delay：
+     使用Wifi-連接模式時想要多等待的延遲時間（取決於網路速度）。（限整數，預設為0）  
+     *The delay time want to wait when using Wifi-connect mode (Depend on network speed). (Limit to an integer, default is 0)*
+
+       > Type in the input box for "請輸入 wifi_delay".
+       
+     - check_position：  
+     遊戲視角畫面最大化時設置為0；  
+     *Set to 0 when the game perspective is maximized;*
+
+       > Type 0 in the input box for "請輸入 check_position".
+
+       <img src= "https://github.com/peter890331/new_autoshinyhunter_gui_version/blob/figures/maximized%20game%20perspective.png" width="200px">
+
+         遊戲視角畫面最小化時則設置為1（適合會飛行則不在腳邊的寶可夢，ex：飛翔皮卡丘）。（限0、1，預設為0）  
+     *Set to 1 when the game perspective is minimized (Suitable for those pokémons that can fly or not beside the feet, ex: Flying Pikachu). (Limits 0, 1, default is 0)*
+
+       > Type 1 in the input box for "請輸入 check_position".
+       
+       <img src= "https://github.com/peter890331/new_autoshinyhunter_gui_version/blob/figures/minimized%20game%20perspective.png" width="200px">
+
+     - male_and_female：  
+     若想要捕捉特定性別的寶可夢，  
+     *If you want to catch pokémons of a specific gender,*
+
+         公的設置為1；母的設置為0；若不指定，則空白。（限0、1和空白，預設為空白）  
+     *Male is set to 1; Female is set to 0; if not specified, then blank. (Limits 0, 1, default is blank)*
+
+       > Type in the input box for "請輸入 male_and_female".
+
+     - specific_pokemon：  
+     若在DC伺服器中Pokedex100的頻道中含有多種寶可夢但只想抓取特定幾種時；  
+     *If there are multiple pokémons in the channel of the Pokedex100 in the DC server, but you only want to catch a few specific of them;*
+
+         或在DC伺服器中Pokedex100的頻道中的寶可夢異常不具有色違符號時，  
+     *or if a pokémon in the channel of the Pokedex100 in the DC server abnormally does not have a shiny symbol,*
+
+         打上寶可夢名字（寶可夢間以半形逗號（需切換至英文輸入法）相隔，ex：Cranidos,Hisuian Voltorb,Larvitar）；若無，則空白。  
+     *type the name of those pokémons (Pokémons need to be separated by semi-commas (need to switch to English input mode), ex: Cranidos,Hisuian Voltorb,Larvitar); if not, then blank.*
+
+       > Note that when blank, will only click on those pokémons that normally have shiny symbol, if those pokémons you want to capture abnormally does not have a shiny symbol, still need to type the name of those pokémons to click on it individually.
+
+     - phone_name：  
+     手機在scrcpy的視窗名。
+     *The window name of your phone in scrcpy.*
+
+       > It is recommended that run scrcpy once before setting this phone_name to determine the window name, the way to run scrcpy is: after enable USB debugging on the phone and connecting to the computer with USB, run scrcpy.exe directly.
+
+     - DC_headers：  
+     網頁版DC的授權碼，在網頁版DC的 F12 - Network - message?limit=50 - Headers - authorization。  
+     *F12 - Network - message?limit=50 - Headers - authorization, the authorization for the web version of the DC server.*
+
+       > Log in to the web version of DC server, go to Pokedex100 and find the channel that you want to crawl,  
+       > click F12, then click F5 to refresh,  
+       > then on the right screen, click Network - message?limit=50 - Headers - authorization in order,  
+       > that's the string of authorization, and paste it into the input box for "請輸入 DC_headers".
+
+       <img src= "https://github.com/peter890331/new_autoshinyhunter_gui_version/blob/figures/DC_headers.png" width="500px">
+
+     - Pokedex100_header_Cookie_csrftoken：  
+     Pokedex100的Cookie，在Pokedex100座標網頁的 F12 - Network - Document - Headers - Cookie - csrftoken。  
+     *Cookies for Pokedex100, F12 - Network - Document - Headers - Cookie - csrftoken, in the web page of Pokedex100.*
+
+       > Click on the "Click for Coords" button of a pokémon in Pokedex100 channel randomly,
+       > 
+       <img src= "https://github.com/peter890331/new_autoshinyhunter_gui_version/blob/figures/Pokedex100_header_Cookie_csrftoken%201.png" width="500px">
+       
+       > then you will be directed to the Pokedex100 web page,  
+       > and after authorizate with your DC account, press F12 on the browser,  
+       > then you can find the string in the Network - Document - Cookie - csrftoken, the whole string is Pokedex100_header_Cookie_csrftoken,  
+       > paste the string into the input box for "請輸入 Pokedex100_header_Cookie_csrftoken".  
+       > (if you don't find it, press F5 and look again).
+
+       <img src= "https://github.com/peter890331/new_autoshinyhunter_gui_version/blob/figures/Pokedex100_header_Cookie_csrftoken%202.png" width="500px">
+        
+         
+
+       
