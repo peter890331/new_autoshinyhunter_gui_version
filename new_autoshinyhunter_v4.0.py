@@ -17,7 +17,7 @@ import base64
 from PIL import Image, ImageTk
 from io import BytesIO
 
-# 檔案名稱：parameter.json，用來存儲字串的 JSON 文件，包含捕捉參數與爬蟲資料
+# parameter.json 是用來存儲字串的 JSON 文件，包含捕捉參數與爬蟲資料
 file_name = "parameter.json"
 
 # 檢查 parameter.json 是否存在，若存在則從 parameter.json 讀取字串並返回；若不存在則返回空字串
@@ -34,18 +34,18 @@ def save_strings_to_file(strings):
 
 # 更新 IP 地址到字典
 def update_ip_address(ip_address):
-    # 先读取现有的字典
+    # 讀取現有的字典
     stored_strings = load_saved_strings()
 
     # 更新字典
     stored_strings["ip"] = ip_address
 
-    # 将更新后的字典保存到 JSON 文件
+    # 將更新後的字典保存到 JSON 文件
     save_strings_to_file(stored_strings)
 
 # 以全域變數來儲存輸入的字串
 stored_strings = load_saved_strings()
-# 以全域變數來定義字串名稱
+# 以全域變數來定義字串名稱。
 custom_names = ["channelid", "L_wanted", "more_check", "check_delay", "wifi_delay", "check_position", "male_and_female", "specific_pokemon", "phone_name", "DC_headers", "Pokedex100_header_Cookie_csrftoken", "Pokedex100_header_Cookie_sessionid"]
 # 以全域變數來定義 labels 和 buttons
 start_label_1 = None
@@ -180,13 +180,13 @@ def Pokedex100_crawler(Pokedex100_url):
     return coord
 
 # 获取 pokemon.json 数据
-response = requests.get("https://raw.githubusercontent.com/fanzeyi/pokemon.json/master/pokedex.json")
+response = requests.get("https://raw.githubusercontent.com/peter890331/Pokedex_JSON/main/Pokedex.json")
 pokemons = response.json()
-def pokemon_json_translate(english_name):
+def pokemon_json_translate(english_name): # Pokedex_JSON：https://github.com/peter890331/Pokedex_JSON
     english_name = english_name.split()[-1]
     for pokemon in pokemons:
-        if pokemon["name"]["english"].lower() == english_name.lower():
-            return pokemon["name"]["chinese"]
+        if pokemon["name_en"].lower() == english_name.lower():
+            return pokemon["name_cn"]
     return None
 
 def click_position(hwnd, x_position, y_position): # 點擊子句柄的相對座標
@@ -592,6 +592,7 @@ def u2_connect():
     Weather_warning_template = cv2.imread("templates\\Weather_warning.jpg", 0)
     Youre_going_too_fast_template = cv2.imread("templates\\Youre_going_too_fast.jpg", 0)
     Home_Page_template = cv2.imread("templates\\Home_Page.jpg", 0)
+    Power_Spot_template = cv2.imread("templates\\Power_Spot.jpg", 0)
 
     Pokedex100_url_temp = "0"
 
@@ -764,12 +765,17 @@ def u2_connect():
                         target = cv2.imread(".\\screenshot\\temp_screenshot")
                         target_gray = cv2.cvtColor(target, cv2.COLOR_BGR2GRAY)
 
+                        _, _, _, _, min_val = find_picture(target_gray, Power_Spot_template)
+                        if (abs(min_val) < abs(0.02)):
+                            d.click(screen_w / 2, screen_h * 0.575)
+                            time.sleep(1)
+
                         _, _, _, _, min_val = find_picture(target_gray, Home_Page_template)
-                        if (abs(min_val) > abs(0.02)):
+                        if (abs(min_val) < abs(0.02)):
+                            home_page_flag = 0
+                        else:
                             d.press("back")
                             time.sleep(1)
-                        else:
-                            home_page_flag = 0
 
                     console_output.insert(tk.END, " \n")
                     console_output.see(tk.END)
