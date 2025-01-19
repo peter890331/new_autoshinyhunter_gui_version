@@ -200,7 +200,7 @@ For users, you can directly download the final version in Releases, it contains 
        <img src= "https://github.com/peter890331/new_autoshinyhunter_gui_version/blob/figures/Pokedex100_header_Cookie_sessionid.png" width="500px">
        
      This completes the settings, click "儲存" below to save.  
-     <img src= "https://github.com/peter890331/new_autoshinyhunter_gui_version/blob/figures/setting%201.png" width="500px">
+     <img src= "https://github.com/peter890331/new_autoshinyhunter_gui_version/blob/figures/setting%202.png" width="500px">
 
      #### Home page
      After clicking "儲存", will jump return the Home page.
@@ -216,14 +216,14 @@ For users, you can directly download the final version in Releases, it contains 
      \- 已自動開啟 NemoADB.exe，並將其最小化。  
      &nbsp;&nbsp;&nbsp;*Automatically opened NemoADB.exe and minimized it.*
 
-     > At this point you will see NemoADB.exe open automatically and minimized it,  
-     > if it doesn't open automatically, it will display
-     > 
+     At this point you will see NemoADB.exe open automatically and minimized it,  
+     if it doesn't open automatically, it will display
+     
      \- 開啟 NemoADB.exe 失敗，請手動開啟。  
      &nbsp;&nbsp;&nbsp;*Open NemoADB.exe failed, please open it manually.*
      
-     > please open NemoADB.exe manually,  
-     > if successfully opened, it will display
+     please open NemoADB.exe manually,  
+     if successfully opened, it will display
      
      \- 已手動開啟 NemoADB.exe，並將其最小化。  
      &nbsp;&nbsp;&nbsp;*Manually opened NemoADB.exe and minimized it.*
@@ -267,7 +267,7 @@ For users, you can directly download the final version in Releases, it contains 
      \- 請將手機以USB接上電腦，允許USB偵錯。  
      &nbsp;&nbsp;&nbsp;*Please connect the phone to the computer via USB to allow USB debugging.*
      
-     > Please open and allow USB debugging on your phone.
+     > Please remember to open and allow USB debugging on your phone.
      
      \- 確認完成後，直接點擊下方 手機已連接！  
      &nbsp;&nbsp;&nbsp;*After confirming are complete, click below "手機已連接"!*
