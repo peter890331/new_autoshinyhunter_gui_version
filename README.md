@@ -39,3 +39,6 @@ Equipment and Software Requirements:
 ## How to use, For users
 For users, you can directly download the final version in Releases, it contains a direct executable exe file, and can run it directly after setting some parameters.  
 ### Steps:
+  1. Download the final version files in Releases, unzip each zip file into folders, then place the unziped folders with the new_autoshinyhunter_v4.0.exe file in the same folder you created, and for those who are not playing game in traditional Chinese, some of the template screenshots in the template folder will need to be re-screenshot in your game language.
+  2. Download scrcpy and unzip it, then place in the the same folder you created too, the folder will look like this: 
+  <img src= "https://github.com/peter890331/new_autoshinyhunter_gui_version/blob/figures/folder%20looks%20like.png" width="200px">
