@@ -25,8 +25,10 @@ Equipment and Software Requirements:
   1. A rooted Android phone with GPS JoyStick ([Google Play][2]) installed **IN THE SYSTEM**, install uiautomator2 ([Github][6]) services such as ATX-agent (may not be necessary for the new version), and of course, install Pokémon GO.
   2. A Windows computer.
   3. scrcpy ([Github][3], [scrcpy-win64-v2.7 download link][4]), this application mirrors Android devices connected via USB or over TCP/IP, and allows to control the device with the keyboard and the mouse of the computer.
-  4. NemoADB by PokeNemo ([Official Website][5]), NemoADB is a GUI program useful to speed up your shundo snipe if you have an Android device with GPS Joystick and a Windows PC.
-  5. A Discord ([Official Website][7]) account that has joined the Pokedex100 ([Official Website][8]) server, Pokedex100 provides pokémon coordinates all over 30 countries, it used to snipe iv100 pokémons. Free account is enough, no need to pay, because this game bot script also doesn't support croods crawler of donor channels.
+  4. NemoADB by PokeNemo ([Official Website][5]), NemoADB is a GUI program useful to speed up your shundo snipe if you have an Android device with GPS Joystick and a Windows PC.  
+    <img src= "https://github.com/peter890331/new_autoshinyhunter_gui_version/blob/figures/NemoADB.png" width="200px">
+  5. A Discord ([Official Website][7]) account that has joined the Pokedex100 ([Official Website][8]) server, Pokedex100 provides pokémon coordinates all over 30 countries, it used to snipe iv100 pokémons. Free account is enough, no need to pay, because this game bot script also doesn't support croods crawler of donor channels.  
+    <img src= "https://github.com/peter890331/new_autoshinyhunter_gui_version/blob/figures/Pokedex100.png" width="500px">
 
 [2]: https://play.google.com/store/apps/details?id=com.theappninjas.fakegpsjoystick
 [3]: https://github.com/Genymobile/scrcpy
@@ -44,7 +46,10 @@ For users, you can directly download the final version in Releases, it contains 
      <img src= "https://github.com/peter890331/new_autoshinyhunter_gui_version/blob/figures/folder%20looks%20like.png" width="200px">
   3. Run new_autoshinyhunter_v4.0.exe file.
      #### Home page
-     First will be taken to the Home page, it contains a main window, the descriptions in the main window as follows:
+     First will be taken to the Home page, it contains a main window,  
+     <img src= "https://github.com/peter890331/new_autoshinyhunter_gui_version/blob/figures/Home%20page.png" width="250px">
+
+     the descriptions in the main window as follows:
      
      \- new_autoshinyhunter_v4.0 - made by Peter Yu.  
 
@@ -64,8 +69,7 @@ For users, you can directly download the final version in Releases, it contains 
      So go to the upper left "參數設定" first, for setting capture parameters and crawler data, click "參數設定".
 
      #### Setting page
-     After clicking "參數設定", will jump to the Setting page, and will also bring up the Setting tutorial,  
-
+     After clicking "參數設定", will jump to the Setting page, and will also bring up the Setting tutorial,
      <img src= "https://github.com/peter890331/new_autoshinyhunter_gui_version/blob/figures/setting%201.png" width="500px">
      
      the descriptions of settings as follows:  
@@ -227,6 +231,8 @@ For users, you can directly download the final version in Releases, it contains 
      
      \- 已手動開啟 NemoADB.exe，並將其最小化。  
      &nbsp;&nbsp;&nbsp;*Manually opened NemoADB.exe and minimized it.*
+
+     <img src= "https://github.com/peter890331/new_autoshinyhunter_gui_version/blob/figures/NemoADB.png" width="200px">
  
      \- 請將手機啟用AtxAgent，  
      &nbsp;&nbsp;&nbsp;*Please enable AtxAgent on your phone,*
@@ -249,12 +255,12 @@ For users, you can directly download the final version in Releases, it contains 
      &nbsp;&nbsp;&nbsp;*Please click below to select the phone connect mode.*
      
      &nbsp;&nbsp;&nbsp;USB連接：  請點擊 * USB-連接模式（建議）、  
-     &nbsp;&nbsp;&nbsp;* USB connection: Please click * "USB-連接模式" (recommended)、*
+     &nbsp;&nbsp;&nbsp;*USB connection: Please click * "USB-連接模式" (recommended)、*
 
      > Computer and phone connected via USB without delay.
      
      &nbsp;&nbsp;&nbsp;Wifi連接： 請點擊 * Wifi-連接模式。  
-     &nbsp;&nbsp;&nbsp;* Wifi connection: Please click * "Wifi-連接模式".*
+     &nbsp;&nbsp;&nbsp;*Wifi connection: Please click * "Wifi-連接模式".*
 
      > Computer and phone connected via Wifi may be delayed.
 
