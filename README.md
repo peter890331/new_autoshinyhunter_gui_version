@@ -50,6 +50,8 @@ For users, you can directly download the final version in Releases, it contains 
      <img src= "https://github.com/peter890331/new_autoshinyhunter_gui_version/blob/figures/Home%20page.png" width="250px">
 
      the descriptions in the main window as follows:
+
+     ---
      
      \- new_autoshinyhunter_v4.0 - made by Peter Yu.  
 
@@ -68,6 +70,8 @@ For users, you can directly download the final version in Releases, it contains 
 
      So go to the upper left "參數設定" first, for setting capture parameters and crawler data, click "參數設定".
 
+     ---
+     
      #### Setting page
      After clicking "參數設定", will jump to the Setting page, and will also bring up the Setting tutorial,
      <img src= "https://github.com/peter890331/new_autoshinyhunter_gui_version/blob/figures/setting%201.png" width="500px">
@@ -210,6 +214,8 @@ For users, you can directly download the final version in Releases, it contains 
      so next time you don't need to reset all the settings, but still need to be aware that csrftoken and sessionid occasionally need to update.  
      <img src= "https://github.com/peter890331/new_autoshinyhunter_gui_version/blob/figures/folder%20looks%20like%20after%20saving.png" width="200px">
 
+     ---
+     
      #### Home page
      After clicking "儲存", will jump return the Home page.
 
@@ -218,6 +224,8 @@ For users, you can directly download the final version in Releases, it contains 
 
      Click "開始運行腳本" to start the script.
 
+     ---
+     
      \- 開始運行腳本！  
      &nbsp;&nbsp;&nbsp;*Start running the script!*
 
@@ -252,6 +260,8 @@ For users, you can directly download the final version in Releases, it contains 
 
      Click "手機已就緒".
 
+     ---
+     
      \- 手機已就緒！  
      &nbsp;&nbsp;&nbsp;*The phone is ready!*
  
@@ -269,6 +279,9 @@ For users, you can directly download the final version in Releases, it contains 
      > Computer and phone connected via Wifi may be delayed.
 
      Choose to click on a connect mode,
+     
+     ---
+     
      if choose USB connection,
 
      \* USB-連接模式  
