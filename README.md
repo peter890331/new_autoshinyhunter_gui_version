@@ -64,7 +64,11 @@ For users, you can directly download the final version in Releases, it contains 
      So go to the upper left "參數設定" first, for setting capture parameters and crawler data, click "參數設定".
 
      #### Setting page
-     After clicking "參數設定", will jump to the Setting page, and will also bring up the Setting tutorial, the descriptions of settings as follows:
+     After clicking "參數設定", will jump to the Setting page, and will also bring up the Setting tutorial,  
+
+     <img src= "https://github.com/peter890331/new_autoshinyhunter_gui_version/blob/figures/setting%201.png" width="500px">
+     
+     the descriptions of settings as follows:  
      - channelid：  
      想要爬蟲的DC伺服器中Pokedex100的頻道ID，  
      *The channel ID of the Pokedex100 in the DC server that you want to crawl,*
@@ -168,7 +172,7 @@ For users, you can directly download the final version in Releases, it contains 
      *Cookies for Pokedex100, F12 - Network - Document - Headers - Cookie - csrftoken, in the web page of Pokedex100.*
 
        > Click on the "Click for Coords" button of a pokémon in Pokedex100 channel randomly,
-       > 
+  
        <img src= "https://github.com/peter890331/new_autoshinyhunter_gui_version/blob/figures/Pokedex100_header_Cookie_csrftoken%201.png" width="500px">
        
        > then you will be directed to the Pokedex100 web page,  
@@ -179,6 +183,94 @@ For users, you can directly download the final version in Releases, it contains 
 
        <img src= "https://github.com/peter890331/new_autoshinyhunter_gui_version/blob/figures/Pokedex100_header_Cookie_csrftoken%202.png" width="500px">
         
-         
+     - Pokedex100_header_Cookie_sessionid：  
+     Pokedex100的Cookie，在Pokedex100座標網頁的 F12 - Network - Document - Headers - Cookie - sessionid。
+     *Cookies for Pokedex100, F12 - Network - Document - Headers - Cookie - sessionid, in the web page of Pokedex100.*
 
+       > Click on the "Click for Coords" button of a pokémon in Pokedex100 channel randomly,
        
+       <img src= "https://github.com/peter890331/new_autoshinyhunter_gui_version/blob/figures/Pokedex100_header_Cookie_csrftoken%201.png" width="500px">
+
+       > then you will be directed to the Pokedex100 web page,  
+       > and after authorizate with your DC account, press F12 on the browser,  
+       > then you can find the string in the Network - Document - Cookie - sessionid, the whole string is Pokedex100_header_Cookie_sessionid,  
+       > paste the string into the input box for "請輸入 Pokedex100_header_Cookie_sessionid".  
+       > (if you don't find it, press F5 and look again).
+
+       <img src= "https://github.com/peter890331/new_autoshinyhunter_gui_version/blob/figures/Pokedex100_header_Cookie_sessionid.png" width="500px">
+       
+     This completes the settings, click "儲存" below to save.  
+     <img src= "https://github.com/peter890331/new_autoshinyhunter_gui_version/blob/figures/setting%201.png" width="500px">
+
+     #### Home page
+     After clicking "儲存", will jump return the Home page.
+
+     \- 確認設定完成後，直接點擊下方 開始運行腳本！  
+     &nbsp;&nbsp;&nbsp;*After confirming the settings are complete, click below "開始運行腳本" to start the script!*
+
+     Click "開始運行腳本" to start the script.
+
+     \- 開始運行腳本！  
+     &nbsp;&nbsp;&nbsp;*Start running the script!*
+
+     \- 已自動開啟 NemoADB.exe，並將其最小化。  
+     &nbsp;&nbsp;&nbsp;*Automatically opened NemoADB.exe and minimized it.*
+
+     > At this point you will see NemoADB.exe open automatically and minimized it,  
+     > if it doesn't open automatically, it will display
+     > 
+     \- 開啟 NemoADB.exe 失敗，請手動開啟。  
+     &nbsp;&nbsp;&nbsp;*Open NemoADB.exe failed, please open it manually.*
+     
+     > please open NemoADB.exe manually,  
+     > if successfully opened, it will display
+     
+     \- 已手動開啟 NemoADB.exe，並將其最小化。  
+     &nbsp;&nbsp;&nbsp;*Manually opened NemoADB.exe and minimized it.*
+ 
+     \- 請將手機啟用AtxAgent，  
+     &nbsp;&nbsp;&nbsp;*Please enable AtxAgent on your phone,*
+     
+     &nbsp;&nbsp;&nbsp;開啟GPS Joystick傳送至任意位置並隱藏，  
+     &nbsp;&nbsp;&nbsp;*turn on the GPS Joystick and send your game position to any location then hide it,*
+     
+     &nbsp;&nbsp;&nbsp;開啟Pokemon Go並確認遊戲視角與記事本設定相同。  
+     &nbsp;&nbsp;&nbsp;*open Pokémon Go and make sure the game perspective is the same as setting.*
+     
+     \- 確認完成後，直接點擊下方 手機已就緒！  
+     &nbsp;&nbsp;&nbsp;*After confirming are complete, click below "手機已就緒"!*
+
+     Click "手機已就緒".
+
+     \- 手機已就緒！  
+     &nbsp;&nbsp;&nbsp;*The phone is ready!*
+ 
+     \- 請點擊下方選擇手機連接模式，  
+     &nbsp;&nbsp;&nbsp;*Please click below to select the phone connect mode.*
+     
+     &nbsp;&nbsp;&nbsp;USB連接：  請點擊 * USB-連接模式（建議）、  
+     &nbsp;&nbsp;&nbsp;* USB connection: Please click * "USB-連接模式" (recommended)、*
+
+     > Computer and phone connected via USB without delay.
+     
+     &nbsp;&nbsp;&nbsp;Wifi連接： 請點擊 * Wifi-連接模式。  
+     &nbsp;&nbsp;&nbsp;* Wifi connection: Please click * "Wifi-連接模式".*
+
+     > Computer and phone connected via Wifi may be delayed.
+
+     Choose to click on a connect mode,
+     if choose USB connection,
+
+     \* USB-連接模式  
+     &nbsp;&nbsp;&nbsp;*USB-connect mode*
+ 
+     \- 請將手機以USB接上電腦，允許USB偵錯。  
+     &nbsp;&nbsp;&nbsp;*Please connect the phone to the computer via USB to allow USB debugging.*
+     
+     > Please open and allow USB debugging on your phone.
+     
+     \- 確認完成後，直接點擊下方 手機已連接！  
+     &nbsp;&nbsp;&nbsp;*After confirming are complete, click below "手機已連接"!*
+
+     Click "手機已連接".
+     
