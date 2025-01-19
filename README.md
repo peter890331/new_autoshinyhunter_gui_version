@@ -37,8 +37,61 @@ Equipment and Software Requirements:
 [8]: https://pokedex100.com/
 
 ## How to use, For users
-For users, you can directly download the final version in Releases, it contains a direct executable exe file, and can run it directly after setting some parameters.  
+For users, you can directly download the final version in Releases, it contains a direct executable exe file.  
 ### Steps:
   1. Download the final version files in Releases, unzip each zip file into folders, then place the unziped folders with the new_autoshinyhunter_v4.0.exe file in the same folder you created, and for those who are not playing game in traditional Chinese, some of the template screenshots in the template folder will need to be re-screenshot in your game language.
-  2. Download scrcpy and unzip it, then place in the the same folder you created too, the folder will look like this: 
-  <img src= "https://github.com/peter890331/new_autoshinyhunter_gui_version/blob/figures/folder%20looks%20like.png" width="200px">
+  2. Download scrcpy and unzip it, then place in the the same folder you created too, the folder will look like this:   
+     <img src= "https://github.com/peter890331/new_autoshinyhunter_gui_version/blob/figures/folder%20looks%20like.png" width="200px">
+  3. Run new_autoshinyhunter_v4.0.exe file.
+     #### Home page
+     First will be taken to the Home page, it contains a main window, the descriptions in the main window as follows:
+     
+     \- new_autoshinyhunter_v4.0 - made by Peter Yu.  
+
+     \- 開始運行腳本前，請先記得先至左上角參數設定，  
+     &nbsp;&nbsp;&nbsp;*Before start running the script, please remember go to the upper left "參數設定",*
+     
+     &nbsp;&nbsp;&nbsp;設定捕捉參數與爬蟲資料（csrftoken和sessionid偶爾需更新）。  
+     &nbsp;&nbsp;&nbsp;*For setting capture parameters and crawler data (csrftoken and sessionid occasionally need to update).*
+     
+     > Need to set capture parameters and crawler data for the first time to use,  
+     > or occasionally need to update the csrftoken and sessionid in crawler data;  
+     > or need to change capture parameters if want to catch different Pokémons than last time.
+
+     \- 確認設定完成後，直接點擊下方 開始運行腳本！  
+     &nbsp;&nbsp;&nbsp;*After confirming the settings are complete, click below "開始運行腳本" to start the script!*
+
+     So go to the upper left "參數設定" first, for setting capture parameters and crawler data, click "參數設定".
+
+     #### Setting page
+     After clicking "參數設定", will jump to the Setting page, and will also bring up the Setting tutorial, the descriptions of settings as follows:
+     - channelid：  
+     想要爬蟲的DC伺服器中Pokedex100的頻道ID，  
+     *The channel ID of the Pokedex100 in the DC server that want to crawl,*
+
+         在網頁版DC伺服器中Pokedex100的頻道的 F12 - Network - message?limit=50 - Request URl，  
+     *F12 - Network - message?limit=50 - Request URl, for Pokedex100's channel in the web version of the DC server,*
+     
+       > Log in to the web version of DC, go to Pokedex100 and find the channel that want to crawl,  
+       > click F12, then click F5 to refresh,  
+       > then on the right screen, click Network - message?limit=50 - Request URl in order,  
+       > that's the string of numbers in the Request URl, and paste it into the input box for channelid.
+
+       <img src= "https://github.com/peter890331/new_autoshinyhunter_gui_version/blob/figures/channelid%201.png" width="500px">
+     
+         或網頁版DC伺服器中Pokedex100的頻道的網址最後一段數字。  
+     *or the last string of numbers of the URL for Pokedex100's channel in the web version of the DC server.*
+
+       > Log in to the web version of DC, go to Pokedex100 and find the channel that want to crawl,  
+       > paste the last string of numbers of the URL into the input box for channelid.
+
+         <img src= "https://github.com/peter890331/new_autoshinyhunter_gui_version/blob/figures/channelid%202.png" width="500px">
+
+     - L_wanted：
+     想要捕捉的寶可夢至少等級。（限整數，預設為0）  
+     *The minimum level of Pokémons want to capture. (Limit to an integer, default is 0)*
+
+     - more_check：
+     想要多確認寶可夢是不是色違的次數（建議取決於該寶可夢的跳躍頻率）。（限整數，預設為0）  
+     *The number of times want to recheck whether the Pokémon is shiny or not (Recommend to depend on the jumping frequency of the Pokémon). (Limit to an integer, default is 0)*
+     
