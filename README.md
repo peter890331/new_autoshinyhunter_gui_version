@@ -206,7 +206,8 @@ For users, you can directly download the final version in Releases, it contains 
      This completes the settings, click "儲存" below to save.  
      <img src= "https://github.com/peter890331/new_autoshinyhunter_gui_version/blob/figures/setting%202.png" width="500px">
 
-     After saving, a parameter.json will appear in the folder.  
+     After saving, a parameter.json will appear in the folder,  
+     so next time you don't need to reset all the settings, but still need to be aware that csrftoken and sessionid occasionally need to update.  
      <img src= "https://github.com/peter890331/new_autoshinyhunter_gui_version/blob/figures/folder%20looks%20like%20after%20saving.png" width="200px">
 
      #### Home page
