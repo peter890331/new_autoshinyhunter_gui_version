@@ -456,7 +456,7 @@ After clicking "作者介紹", will bring up the introduce about me and some of 
 ---
 
 ## Some screen recording when using
-These videos are the gains of my actual use for a period of time, as evidenced by the videos.  
+These videos are the gains of my actual use for a period of time.  
 Includes previously captured using some [older script][1]s.  
 (Click in to download to watch the full video.)
 
