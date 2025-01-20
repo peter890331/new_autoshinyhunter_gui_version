@@ -15,6 +15,10 @@ new_autoshinyhunter_v4.0, made by Peter Yu.
 ### The consequences are your own! I will not be responsible for any law liability to this content. ❗    
  <img src= "https://github.com/peter890331/new_autoshinyhunter_gui_version/blob/figures/Pok%C3%A9mon%20GO%20icon.png" width="300px">
 
+To see examples can go to [live stream][14] first.
+
+[14]: https://github.com/peter890331/new_autoshinyhunter_gui_version/edit/main/README.md#live-stream
+
 ## Foreword
 In Pokémon Go, beyond your pokémon’s CP (Combat Power), all your caught pokémons have semi-hidden base stats called individual values, or IVs. IVs determine how strong a Pokémon can potentially get. For example, a perfect IV Chansey will have a higher CP at its maxed out level, as opposed to a Chansey with only so-so IVs. There are just three stats to worry about: Attack, Defense, and Stamina, each of which maxes out at 15, and the pokémon with all three stats of 15 is called the iv100 pokémon, it means that this pokémon is the strongest in the same kind of pokémons. In addition, shiny pokémons are rare variants of pokémons that are differently colored than other pokémons of their species. In the game, the chance of having iv100 pokémons on the map is already very low, not to mention that it is also a shiny pokémon, so can see how difficult it is to obtain a pokémon with these two characteristics from the general game method.
 
