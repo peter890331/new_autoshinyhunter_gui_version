@@ -66,7 +66,7 @@ For users, you can directly download the final version in Releases, it contains 
      > or need to change capture parameters if you want to catch different pokémons than last time.
 
      \- 確認設定完成後，直接點擊下方 開始運行腳本！  
-     &nbsp;&nbsp;&nbsp;*After confirming the settings are complete, click below "開始運行腳本" to start the script!*
+     &nbsp;&nbsp;&nbsp;*After confirming the settings are complete, click below "開始運行腳本" to start running the script!*
 
      So go to the upper left "參數設定" first, for setting capture parameters and crawler data, click "參數設定".
 
@@ -74,7 +74,7 @@ For users, you can directly download the final version in Releases, it contains 
      
      #### Setting page
      After clicking "參數設定", will jump to the Setting page, and will also bring up the Setting tutorial,
-     <img src= "https://github.com/peter890331/new_autoshinyhunter_gui_version/blob/figures/setting%201.png" width="500px">
+     <img src= "https://github.com/peter890331/new_autoshinyhunter_gui_version/blob/figures/setting%201.png" width="700px">
      
      the descriptions of settings as follows:  
      - channelid：  
@@ -85,6 +85,7 @@ For users, you can directly download the final version in Releases, it contains 
      *F12 - Network - message?limit=50 - Request URl, for Pokedex100's channel in the web version of the DC server,*
      
        > Log in to the web version of DC server, go to Pokedex100 and find the channel that you want to crawl,  
+       > there is usually a channel called 100communitcy, or a special channel on community days,  
        > click F12, then click F5 to refresh,  
        > then on the right screen, click Network - message?limit=50 - Request URl in order,  
        > that's the string of numbers in the Request URl, and paste it into the input box for "請輸入 channelid".
@@ -95,6 +96,7 @@ For users, you can directly download the final version in Releases, it contains 
      *or the last string of numbers of the URL for Pokedex100's channel in the web version of the DC server.*
 
        > Log in to the web version of DC server, go to Pokedex100 and find the channel that you want to crawl,  
+       > there is usually a channel called 100communitcy, or a special channel on community days,  
        > paste the last string of numbers of the URL into the input box for "請輸入 channelid".
 
        <img src= "https://github.com/peter890331/new_autoshinyhunter_gui_version/blob/figures/channelid%202.png" width="500px">
@@ -208,7 +210,7 @@ For users, you can directly download the final version in Releases, it contains 
        <img src= "https://github.com/peter890331/new_autoshinyhunter_gui_version/blob/figures/Pokedex100_header_Cookie_sessionid.png" width="500px">
        
      This completes the settings, click "儲存" below to save.  
-     <img src= "https://github.com/peter890331/new_autoshinyhunter_gui_version/blob/figures/setting%202.png" width="500px">
+     <img src= "https://github.com/peter890331/new_autoshinyhunter_gui_version/blob/figures/setting%202.png" width="700px">
 
      After saving, a parameter.json will appear in the folder,  
      so next time you don't need to reset all the settings, but still need to be aware that csrftoken and sessionid occasionally need to update.  
@@ -220,9 +222,9 @@ For users, you can directly download the final version in Releases, it contains 
      After clicking "儲存", will jump return the Home page.
 
      \- 確認設定完成後，直接點擊下方 開始運行腳本！  
-     &nbsp;&nbsp;&nbsp;*After confirming the settings are complete, click below "開始運行腳本" to start the script!*
+     &nbsp;&nbsp;&nbsp;*After confirming the settings are complete, click below "開始運行腳本" to start running the script!*
 
-     Click "開始運行腳本" to start the script.
+     Click "開始運行腳本" to start running the script.
 
      ---
      
@@ -244,6 +246,8 @@ For users, you can directly download the final version in Releases, it contains 
      \- 已手動開啟 NemoADB.exe，並將其最小化。  
      &nbsp;&nbsp;&nbsp;*Manually opened NemoADB.exe and minimized it.*
 
+     > Make sure NemoADB.exe is open, otherwise can't use GPS Joystick to change your game position.
+
      <img src= "https://github.com/peter890331/new_autoshinyhunter_gui_version/blob/figures/NemoADB.png" width="200px">
  
      \- 請將手機啟用AtxAgent，  
@@ -251,9 +255,15 @@ For users, you can directly download the final version in Releases, it contains 
      
      &nbsp;&nbsp;&nbsp;開啟GPS Joystick傳送至任意位置並隱藏，  
      &nbsp;&nbsp;&nbsp;*turn on the GPS Joystick and send your game position to any location then hide it,*
+
+     > Manually turn on the GPS Joystick on your phone and send your game position to any location,  
+     > or open any GPX and pause it, then hide it.
      
      &nbsp;&nbsp;&nbsp;開啟Pokemon Go並確認遊戲視角與記事本設定相同。  
      &nbsp;&nbsp;&nbsp;*open Pokémon Go and make sure the game perspective is the same as setting.*
+
+     <img src= "https://github.com/peter890331/new_autoshinyhunter_gui_version/blob/figures/maximized%20game%20perspective.png" width="200px">
+     <img src= "https://github.com/peter890331/new_autoshinyhunter_gui_version/blob/figures/minimized%20game%20perspective.png" width="200px">
      
      \- 確認完成後，直接點擊下方 手機已就緒！  
      &nbsp;&nbsp;&nbsp;*After confirming are complete, click below "手機已就緒"!*
@@ -266,7 +276,7 @@ For users, you can directly download the final version in Releases, it contains 
      &nbsp;&nbsp;&nbsp;*The phone is ready!*
  
      \- 請點擊下方選擇手機連接模式，  
-     &nbsp;&nbsp;&nbsp;*Please click below to select the phone connect mode.*
+     &nbsp;&nbsp;&nbsp;*Please click below to select the phone connect mode,*
      
      &nbsp;&nbsp;&nbsp;USB連接：  請點擊 * USB-連接模式（建議）、  
      &nbsp;&nbsp;&nbsp;*USB connection: Please click * "USB-連接模式" (recommended)、*
@@ -281,14 +291,15 @@ For users, you can directly download the final version in Releases, it contains 
      Choose to click on a connect mode,
      
      ---
-     
+     #### USB-connect mode
+
      if choose USB connection,
 
      \* USB-連接模式  
      &nbsp;&nbsp;&nbsp;*USB-connect mode*
  
      \- 請將手機以USB接上電腦，允許USB偵錯。  
-     &nbsp;&nbsp;&nbsp;*Please connect the phone to the computer via USB to allow USB debugging.*
+     &nbsp;&nbsp;&nbsp;*Please connect the phone to the computer via USB and allow USB debugging.*
      
      > Please remember to open and allow USB debugging on your phone.
      
@@ -296,4 +307,145 @@ For users, you can directly download the final version in Releases, it contains 
      &nbsp;&nbsp;&nbsp;*After confirming are complete, click below "手機已連接"!*
 
      Click "手機已連接".
+          
+     ---
+     #### Wifi-connect mode
+
+     And if choose Wifi connection,
+
+     \* Wifi-連接模式  
+     &nbsp;&nbsp;&nbsp;*Wifi-connect mode*
+ 
+     \- 請將手機連上Wifi並以USB接上電腦，允許USB偵錯，  
+     &nbsp;&nbsp;&nbsp;*Please connect the phone to Wifi, and connect to the computer via USB and allow USB debugging,*
+
+     > Connect your phone to the same Wifi network as your computer,  
+     > and connect your phone to your computer via USB and allow USB debugging.  
+     > Please remember to open and allow USB debugging on your phone.
+     
+     &nbsp;&nbsp;&nbsp;並在下方輸入手機的IP位置。  
+     &nbsp;&nbsp;&nbsp;*enter the phone's IP address below.*
+
+     > Enter your phone's IP address below (need to switch to English input mode),  
+     > it can usually be found in the phone's settings, looks like: 192.XXX.XX.XXX.
+
+     \- 確認完成後，直接點擊下方 手機已連接！。  
+     &nbsp;&nbsp;&nbsp;*After confirming are complete, click below "手機已連接"!*
+
+     Click "手機已連接".
+
+     ---
+
+     \- 已輸入手機IP地址: 192.XXX.XX.XXX。  
+     &nbsp;&nbsp;&nbsp;*Already enter the phone's IP address: 192.XXX.XX.XXX*
+ 
+     \- 手機已連接！  
+     &nbsp;&nbsp;&nbsp;*The phone is connected!*
+
+     \- 請將手機與電腦的USB連接拔除。  
+     &nbsp;&nbsp;&nbsp;*Please disconnect the phone to the computer via USB.*
+     
+     \- 確認完成後，直接點擊下方 手機已拔除！  
+     &nbsp;&nbsp;&nbsp;*After confirming are complete, click below "手機已拔除"!*
+
+     > Disconnect your phone to your computer via USB.
+     
+     Click "手機已拔除".
+
+     ---
+     
+     \- 手機已拔除！  
+     &nbsp;&nbsp;&nbsp;*The phone is disconnect to the computer via USB!*
+     
+     ---
+     
+     \- 即將投影手機，  
+     &nbsp;&nbsp;&nbsp;*Project phone's screen to computer,*
+     
+     &nbsp;&nbsp;&nbsp;若手機需要允許USB偵錯，請在允許USB偵錯後重啟腳本。  
+     &nbsp;&nbsp;&nbsp;*If the phone needs to allow USB debugging, please restart the script after allowing USB debugging.*
+     
+     &nbsp;&nbsp;&nbsp;若投影失敗請檢查問題後重啟腳本。  
+     &nbsp;&nbsp;&nbsp;*If project failed, please check the problem and restart the script.*
+ 
+     \- 請稍等，此時視窗可能暫時沒有回應，屬正常現象。  
+     &nbsp;&nbsp;&nbsp;*Please wait for a while, it is normal that the script may not be responding at the moment.*
+
+     \~ 開始時間：20XX-XX-XX XX\:XX:XX.XXXXXX  
+     &nbsp;&nbsp;&nbsp;*Start time: 20XX-XX-XX XX\:XX:XX.XXXXXX*
+
+     At this point you will see your phone's screen project to computer automatically,  
+     <img src= "https://github.com/peter890331/new_autoshinyhunter_gui_version/blob/figures/project%20phone's%20screen.png" width="500px">
+     
+     there are three programs in total.  
+     <img src= "https://github.com/peter890331/new_autoshinyhunter_gui_version/blob/figures/minimized.png" width="200px">
+
+     \~ 腳本正在執行。  
+     &nbsp;&nbsp;&nbsp;*The script is running.*
+     
+     ---
+     
+     Now, the script will starting to send your game position to any location in the world and starting to check if the pokémon is shiny.
+
+     \~ 若發現手機畫面無法自動點擊，  
+     &nbsp;&nbsp;&nbsp;*If you notice that your phone screen is not automatically clickable,*
+     
+     &nbsp;&nbsp;&nbsp;請開啟AtxAgent並手動點擊"启动 UIAUTOMATOR"，  
+     &nbsp;&nbsp;&nbsp;*Please open AtxAgent and click "启动 UIAUTOMATOR" manually,
+
+     &nbsp;&nbsp;&nbsp;再返回遊戲即可。  
+     &nbsp;&nbsp;&nbsp;*then can go back to the game.*
+     
+     > If you notice that your phone screen is not automatically clickable,
+     > please close Pokémon Go first, find the ATX app,
+
+     <img src= "https://github.com/peter890331/new_autoshinyhunter_gui_version/blob/figures/ATX.png" width="50px">
+     
+     > and click “启动 UIAUTOMATOR”, then can go back to the game.
+
+     <img src= "https://github.com/peter890331/new_autoshinyhunter_gui_version/blob/figures/%E5%90%AF%E5%8A%A8%20UIAUTOMATOR.png" width="200px">
+
+     If in the Pokedex100 channel you set, has a pokémon that matches your settings, the descriptions in the main window as follows:  
+     <img src= "https://github.com/peter890331/new_autoshinyhunter_gui_version/blob/figures/start%20check.png" width="300px">
+
+     \~ Tp to：43.550079,-79.748105  
+     \~ Name：Poochyena (土狼犬), CP：329, L：17, ♂  
+     \~ Checked：1  
+     \~ Not Shiny or Clicked Error !
+
+     It contains the coord send to, the name of the pokémon in English and traditional Chinese, CP, level, gender, and how many pokémons were checked.
+
+     And if there is no pokémon that matches your settings for the time being, the instructions in the main window are as follows:  
+     <img src= "https://github.com/peter890331/new_autoshinyhunter_gui_version/blob/figures/no%20crood.png" width="300px">
+
+     \~ No new coord, waiting . . .
+
+     > Just wait for new pokémons appear, wait for the Pokedex100 channel to update..
+
+     When the shiny pokémon is clicked on, the descriptions in the main window as follows:  
+     <img src= "https://github.com/peter890331/new_autoshinyhunter_gui_version/blob/figures/shiny%20appear.png" width="300px">
+
+     \~  !!! Shiny !!!
+     
+     \~ 結束時間：20XX-XX-XX XX\:XX:XX.XXXXXX  
+     &nbsp;&nbsp;&nbsp;*End time: 20XX-XX-XX XX\:XX:XX.XXXXXX*
+
+     \~  Please STOP the code !
+
+     Then you can check if is clicked on the right pokémon, and catch it manually!
+
+  5. Enjoy the convenience brought by this scripts 🤓.
+
+---
+
+## About anthor
+#### Home page
+About me and some of this script's introduction, you can go to the upper left "作者介紹" to get it.
+
+Click "作者介紹".
+
+---
+#### Anthor page
+After clicking "作者介紹", will bring up the introduce about me and some of this script's introduction.  
+<img src= "https://github.com/peter890331/new_autoshinyhunter_gui_version/blob/figures/author.png" width="300px">
      
