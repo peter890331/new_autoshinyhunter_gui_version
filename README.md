@@ -442,6 +442,12 @@ For users, you can directly download the final version in Releases, it contains 
      Then you can check if is clicked on the right pokémon, and catch it manually! Congratulations on getting a shiny and iv100 pokémon!
 
   5. Enjoy the convenience brought by this scripts 🤓.
+  6. To quit the script, just click on the cross in the upper right corner, then click "確定".
+  
+     確定要退出腳本嗎？  
+     *Are you sure you want to quit the script?*  
+     
+     <img src= "https://github.com/peter890331/new_autoshinyhunter_gui_version/blob/figures/%E9%80%80%E5%87%BA%E8%85%B3%E6%9C%AC.png" width="200px">
 
 ---
 
