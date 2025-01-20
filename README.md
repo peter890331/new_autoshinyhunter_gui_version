@@ -547,6 +547,6 @@ to add your own icon, use 'pyinstaller --onefile --windowed --icon=icon.ico XXX.
 
 ---
 
-### ❗ 再次警告：僅以此練習程式編寫，請勿在遊戲中使用外掛，否則後果自負！本人對此內容不負任何法律責任。 ❗    
-### ❗ WARNING AGAIN: Practice programming only, please do not use it to cheat on the game!     
-### The consequences are your own! I will not be responsible for any law liability to this content. ❗   
+### ❗ 警告：僅以此練習程式編寫，請勿在遊戲中使用外掛，否則後果自負！本人對此內容不負任何法律責任。 ❗    
+### ❗ WARNING: Practice programming only, please do not use it to cheat on the game!     
+### The consequences are your own! I will not be responsible for any law liability to this content. ❗    
