@@ -89,7 +89,7 @@ For users, you can directly download the final version in Releases, it contains 
      *F12 - Network - message?limit=50 - Request URl, for Pokedex100's channel in the web version of the DC server,*
      
        > Log in to the web version of DC server, go to Pokedex100 and find the channel that you want to crawl,  
-       > click F12, then click F5 to refresh,  
+       > press F12, then press F5 to refresh,  
        > then on the right screen, click Network - message?limit=50 - Request URl in order,  
        > that's the string of numbers in the Request URl, and paste it into the input box for "請輸入 channelid".  
 
@@ -161,7 +161,7 @@ For users, you can directly download the final version in Releases, it contains 
          打上寶可夢名字（寶可夢間以半形逗號（需切換至英文輸入法）相隔，ex：Cranidos,Hisuian Voltorb,Larvitar）；若無，則空白。  
      *type the name of those pokémons (Pokémons need to be separated by semi-commas (need to switch to English input mode), ex: Cranidos,Hisuian Voltorb,Larvitar); if not, then blank.*
 
-       > Note that when blank, will only click on those pokémons that normally have shiny symbol, if those pokémons you want to capture abnormally does not have a shiny symbol, still need to type the name of those pokémons to click on it individually.
+       > Note that when blank, will only check those pokémons that normally have shiny symbol, if those pokémons you want to capture abnormally does not have a shiny symbol, still need to type the name of those pokémons to check it individually.
 
      - phone_name：  
      手機在scrcpy的視窗名。
@@ -174,7 +174,7 @@ For users, you can directly download the final version in Releases, it contains 
      *F12 - Network - message?limit=50 - Headers - authorization, the authorization for the web version of the DC server.*
 
        > Log in to the web version of DC server, go to Pokedex100 and find the channel that you want to crawl,  
-       > click F12, then click F5 to refresh,  
+       > press F12, then press F5 to refresh,  
        > then on the right screen, click Network - message?limit=50 - Headers - authorization in order,  
        > that's the string of authorization, and paste it into the input box for "請輸入 DC_headers".
 
