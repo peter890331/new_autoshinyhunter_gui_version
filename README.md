@@ -81,14 +81,18 @@ For users, you can directly download the final version in Releases, it contains 
      想要爬蟲的DC伺服器中Pokedex100的頻道ID，  
      *The channel ID of the Pokedex100 in the DC server that you want to crawl,*
 
+       > There is usually a channel called 100communitcy, or a special channel on community days,  
+       > however, only free-to-use channels are supported,  
+       > i.e. channels where the button displays "Click for Coords" instead of "Click for Donor coord".
+
          在網頁版DC伺服器中Pokedex100的頻道的 F12 - Network - message?limit=50 - Request URl，  
      *F12 - Network - message?limit=50 - Request URl, for Pokedex100's channel in the web version of the DC server,*
      
        > Log in to the web version of DC server, go to Pokedex100 and find the channel that you want to crawl,  
-       > there is usually a channel called 100communitcy, or a special channel on community days,  
        > click F12, then click F5 to refresh,  
        > then on the right screen, click Network - message?limit=50 - Request URl in order,  
-       > that's the string of numbers in the Request URl, and paste it into the input box for "請輸入 channelid".
+       > that's the string of numbers in the Request URl, and paste it into the input box for "請輸入 channelid".  
+
 
        <img src= "https://github.com/peter890331/new_autoshinyhunter_gui_version/blob/figures/channelid%201.png" width="500px">
      
@@ -96,7 +100,6 @@ For users, you can directly download the final version in Releases, it contains 
      *or the last string of numbers of the URL for Pokedex100's channel in the web version of the DC server.*
 
        > Log in to the web version of DC server, go to Pokedex100 and find the channel that you want to crawl,  
-       > there is usually a channel called 100communitcy, or a special channel on community days,  
        > paste the last string of numbers of the URL into the input box for "請輸入 channelid".
 
        <img src= "https://github.com/peter890331/new_autoshinyhunter_gui_version/blob/figures/channelid%202.png" width="500px">
@@ -246,7 +249,7 @@ For users, you can directly download the final version in Releases, it contains 
      \- 已手動開啟 NemoADB.exe，並將其最小化。  
      &nbsp;&nbsp;&nbsp;*Manually opened NemoADB.exe and minimized it.*
 
-     > Make sure NemoADB.exe is open, otherwise can't use GPS Joystick to change your game position.
+     > Make sure NemoADB.exe is open, otherwise can't use GPS Joystick to send your game position.
 
      <img src= "https://github.com/peter890331/new_autoshinyhunter_gui_version/blob/figures/NemoADB.png" width="200px">
  
@@ -360,7 +363,7 @@ For users, you can directly download the final version in Releases, it contains 
      ---
      
      \- 即將投影手機，  
-     &nbsp;&nbsp;&nbsp;*Project phone's screen to computer,*
+     &nbsp;&nbsp;&nbsp;*Project the phone's screen to computer,*
      
      &nbsp;&nbsp;&nbsp;若手機需要允許USB偵錯，請在允許USB偵錯後重啟腳本。  
      &nbsp;&nbsp;&nbsp;*If the phone needs to allow USB debugging, please restart the script after allowing USB debugging.*
@@ -388,7 +391,7 @@ For users, you can directly download the final version in Releases, it contains 
      Now, the script will starting to send your game position to any location in the world and starting to check if the pokémon is shiny.
 
      \~ 若發現手機畫面無法自動點擊，  
-     &nbsp;&nbsp;&nbsp;*If you notice that your phone screen is not automatically clickable,*
+     &nbsp;&nbsp;&nbsp;*If notice that the phone screen is not automatically clickable,*
      
      &nbsp;&nbsp;&nbsp;請開啟AtxAgent並手動點擊"启动 UIAUTOMATOR"，  
      &nbsp;&nbsp;&nbsp;*Please open AtxAgent and click "启动 UIAUTOMATOR" manually,
@@ -420,9 +423,9 @@ For users, you can directly download the final version in Releases, it contains 
 
      \~ No new coord, waiting . . .
 
-     > Just wait for new pokémons appear, wait for the Pokedex100 channel to update..
+     > Just wait for new pokémons appear, wait for the Pokedex100 channel to update.
 
-     When the shiny pokémon is clicked on, the descriptions in the main window as follows:  
+     When the shiny pokémon appeard and clicked on, the descriptions in the main window as follows:  
      <img src= "https://github.com/peter890331/new_autoshinyhunter_gui_version/blob/figures/shiny%20appear.png" width="300px">
 
      \~  !!! Shiny !!!
@@ -432,7 +435,7 @@ For users, you can directly download the final version in Releases, it contains 
 
      \~  Please STOP the code !
 
-     Then you can check if is clicked on the right pokémon, and catch it manually!
+     Then you can check if is clicked on the right pokémon, and catch it manually! Congratulations on getting a shiny and iv100 pokémon!
 
   5. Enjoy the convenience brought by this scripts 🤓.
 
@@ -440,12 +443,29 @@ For users, you can directly download the final version in Releases, it contains 
 
 ## About anthor
 #### Home page
-About me and some of this script's introduction, you can go to the upper left "作者介紹" to get it.
+About me and some of this script's introduction, can go to the upper left "作者介紹" to get it.
 
 Click "作者介紹".
 
 ---
+
 #### Anthor page
 After clicking "作者介紹", will bring up the introduce about me and some of this script's introduction.  
 <img src= "https://github.com/peter890331/new_autoshinyhunter_gui_version/blob/figures/author.png" width="300px">
-     
+
+---
+
+## Some screen recording when using
+These videos are the gains of my actual use for a period of time, as evidenced by the videos.  
+Includes previously captured using some [older script][1]s.  
+(Click in to download to watch the full video.)
+
+
+
+## Some screenshot when using
+These screenshots are my actual usage, including testing while developing, I also like to use the script while doing other things, while I focus on other things, the script will continue to click pokémons for me.  
+Includes previously captured using [older script][1].
+
+#### [new_autoshinyhunter_cmd_version][1], [older script][1]：
+
+#### new_autoshinyhunter_gui_version, this script：
