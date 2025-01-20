@@ -552,7 +552,8 @@ And a traditional Chinese tutorial on [巴哈姆特][12].
 
 
 ### PyInstaller
-If there are updates to this script in the future, can use PyInstaller to package the .py file into an .exe file, use 'pyinstaller -F XXX.py' command,  
+If there are updates to this script in the future,  
+can use PyInstaller to package the .py file into an .exe file, use 'pyinstaller -F XXX.py' command,  
 to add your own icon, use 'pyinstaller --onefile --windowed --icon=icon.ico XXX.py' command.
 
 ---
