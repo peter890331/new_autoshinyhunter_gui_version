@@ -20,8 +20,12 @@ There may be an tutorial video later, when I have time.
 
 [14]: https://github.com/peter890331/new_autoshinyhunter_gui_version#some-examples-when-using
 
+---
+
 ## Foreword
 In Pokémon Go, beyond your pokémon’s CP (Combat Power), all your caught pokémons have semi-hidden base stats called individual values, or IVs. IVs determine how strong a Pokémon can potentially get. For example, a perfect IV Chansey will have a higher CP at its maxed out level, as opposed to a Chansey with only so-so IVs. There are just three stats to worry about: Attack, Defense, and Stamina, each of which maxes out at 15, and the pokémon with all three stats of 15 is called the iv100 pokémon, it means that this pokémon is the strongest in the same kind of pokémons. In addition, shiny pokémons are rare variants of pokémons that are differently colored than other pokémons of their species. In the game, the chance of having iv100 pokémons on the map is already very low, not to mention that it is also a shiny pokémon, so can see how difficult it is to obtain a pokémon with these two characteristics from the general game method.
+
+---
 
 ## Overview
 This game bot script can fully automatically send your game position to any location in the world where the specified iv100 pokémon appear, and click on the pokémon to determine whether it is a shiny, if not, then continue to try in the whole world, if yes, stop the script and wait for manual capture.    
@@ -43,6 +47,8 @@ Equipment and Software Requirements:
 [7]: https://discord.com/
 [8]: https://pokedex100.com/
 
+---
+
 ## How to use, For users
 For users, you can directly download the final version in Releases, it contains a direct executable exe file.  
 ### Steps:
@@ -55,8 +61,6 @@ For users, you can directly download the final version in Releases, it contains 
      <img src= "https://github.com/peter890331/new_autoshinyhunter_gui_version/blob/figures/Home%20page.png" width="250px">
 
      the descriptions in the main window as follows:
-
-     ---
      
      \- new_autoshinyhunter_v4.0 - made by Peter Yu.  
 
