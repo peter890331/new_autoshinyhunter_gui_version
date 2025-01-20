@@ -449,7 +449,7 @@ Click "作者介紹".
 
 ---
 
-#### Anthor page
+#### Author page
 After clicking "作者介紹", will bring up the introduce about me and some of this script's introduction.  
 <img src= "https://github.com/peter890331/new_autoshinyhunter_gui_version/blob/figures/author.png" width="300px">
 
@@ -460,12 +460,93 @@ These videos are the gains of my actual use for a period of time.
 Includes previously captured using some [older script][1]s.  
 (Click in to download to watch the full video.)
 
+<a href="https://github.com/peter890331/new_autoshinyhunter_gui_version/blob/figures/screen-20250120-224249.mp4">
+  <img src="https://github.com/peter890331/new_autoshinyhunter_gui_version/blob/figures/ezgif-7-54f9603501%20(1).gif" width="200" height=auto>
+</a>
 
+<a href="https://github.com/peter890331/new_autoshinyhunter_gui_version/blob/figures/screen-20250120-224537.mp4">
+  <img src="https://github.com/peter890331/new_autoshinyhunter_gui_version/blob/figures/ezgif-7-6bb932a945%20(1).gif" width="200" height=auto>
+</a>
+
+<a href="https://github.com/peter890331/new_autoshinyhunter_gui_version/blob/figures/screen-20250120-224729.mp4">
+  <img src="https://github.com/peter890331/new_autoshinyhunter_gui_version/blob/figures/ezgif-7-615d77c1e1%20(1).gif" width="200" height=auto>
+</a>
 
 ## Some screenshot when using
 These screenshots are my actual usage, including testing while developing, I also like to use the script while doing other things, while I focus on other things, the script will continue to click pokémons for me.  
 Includes previously captured using [older script][1].
 
 #### [new_autoshinyhunter_cmd_version][1], [older script][1]：
+<p>
+<img src= "https://github.com/peter890331/new_autoshinyhunter_gui_version/blob/figures/new_autoshinyhunter_v3.0/1.png" width="100px">
+<img src= "https://github.com/peter890331/new_autoshinyhunter_gui_version/blob/figures/new_autoshinyhunter_v3.0/2.png" width="100px">
+<img src= "https://github.com/peter890331/new_autoshinyhunter_gui_version/blob/figures/new_autoshinyhunter_v3.0/3.png" width="100px">
+<img src= "https://github.com/peter890331/new_autoshinyhunter_gui_version/blob/figures/new_autoshinyhunter_v3.0/4.png" width="100px">
+<img src= "https://github.com/peter890331/new_autoshinyhunter_gui_version/blob/figures/new_autoshinyhunter_v3.0/5.png" width="100px">
+</p><p>
+<img src= "https://github.com/peter890331/new_autoshinyhunter_gui_version/blob/figures/new_autoshinyhunter_v3.0/6.png" width="100px">
+<img src= "https://github.com/peter890331/new_autoshinyhunter_gui_version/blob/figures/new_autoshinyhunter_v3.0/7.png" width="100px">
+<img src= "https://github.com/peter890331/new_autoshinyhunter_gui_version/blob/figures/new_autoshinyhunter_v3.0/8.png" width="100px">
+<img src= "https://github.com/peter890331/new_autoshinyhunter_gui_version/blob/figures/new_autoshinyhunter_v3.0/9.png" width="100px">
+<img src= "https://github.com/peter890331/new_autoshinyhunter_gui_version/blob/figures/new_autoshinyhunter_v3.0/10.png" width="100px">
+</p><p>
+<img src= "https://github.com/peter890331/new_autoshinyhunter_gui_version/blob/figures/new_autoshinyhunter_v3.0/11.png" width="100px">
+<img src= "https://github.com/peter890331/new_autoshinyhunter_gui_version/blob/figures/new_autoshinyhunter_v3.0/12.jpg" width="100px">
+<img src= "https://github.com/peter890331/new_autoshinyhunter_gui_version/blob/figures/new_autoshinyhunter_v3.0/13.png" width="100px">
+<p>
 
 #### new_autoshinyhunter_gui_version, this script：
+<p>
+<img src= "https://github.com/peter890331/new_autoshinyhunter_gui_version/blob/figures/new_autoshinyhunter_v4.0/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2%202024-10-07%20223448.png" width="100px">
+<img src= "https://github.com/peter890331/new_autoshinyhunter_gui_version/blob/figures/new_autoshinyhunter_v4.0/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2%202024-10-27%20230831.png" width="100px">
+<img src= "https://github.com/peter890331/new_autoshinyhunter_gui_version/blob/figures/new_autoshinyhunter_v4.0/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2%202024-10-28%20173747.png" width="100px">
+<img src= "https://github.com/peter890331/new_autoshinyhunter_gui_version/blob/figures/new_autoshinyhunter_v4.0/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2%202024-10-30%20234051.png" width="100px">
+<p>
+
+## Some live stream when using
+This is the playlist of live stream of my actual use, occasionally live stream.  
+The right side of each live stream will show current pokémons to check on, and the down side will also have current description.
+
+[Pokémon GO 自製外掛腳本直播][9]
+
+[9]: https://www.youtube.com/watch?v=8h2jUKUrAkY&list=PLN0w7j_rRAO8jQKUtQZqwDHsG4QiPCuCx&pp=gAQB
+
+---
+
+## Notes
+### scrcpy
+scrcpy ([Github][3], [scrcpy-win64-v2.7 download link][4]), this application mirrors Android devices connected via USB or over TCP/IP, and allows to control the device with the keyboard and the mouse of the computer.  
+Here are some command steps can use to test the Wifi connection mode:
+1. cd /d C:\Users\XXX\scrcpy-win64-vX.XX
+2. adb tcpip 5555
+3. adb connect 192.XXX.XX.XXX:5555
+4. scrcpy -t -b2M -m800
+   
+Then here are two useful shortcuts to turn off the phone screen while connected:
+- Turn device screen off (keep mirroring):	MOD+o
+- Turn device screen on:	MOD+Shift+o  
+  (MOD key is usually Alt)
+  
+And a traditional Chinese teaching video on [Youtube][10].
+
+[10]: https://youtu.be/WkTd5OxDZ-8
+
+### WindowThumbnail
+If you are using your computer to do other things at the same time as running this script, and want to keep checking if shiny pokémon has appeared, you can use WindowThumbnail ([Github][11], [WindowThumbnail-v1.0 download link][13]) to continuously displays your phone screen or the cmd of this script in a small window on the upper level of your computer.
+
+And a traditional Chinese tutorial on [巴哈姆特][12].
+
+[11]: https://github.com/neilchennc/WindowThumbnail
+[12]: https://forum.gamer.com.tw/Co.php?bsn=19017&sn=318177
+[13]: https://github.com/neilchennc/WindowThumbnail/releases/download/v1.0/WindowThumbnail-v1.0.exe
+
+
+### PyInstaller
+If there are updates to this script in the future, can use PyInstaller to package the .py file into an .exe file, use 'pyinstaller -F XXX.py' command,  
+to add your own icon, use 'pyinstaller --onefile --windowed --icon=icon.ico XXX.py' command.
+
+---
+
+### ❗ 再次警告：僅以此練習程式編寫，請勿在遊戲中使用外掛，否則後果自負！本人對此內容不負任何法律責任。 ❗    
+### ❗ WARNING AGAIN: Practice programming only, please do not use it to cheat on the game!     
+### The consequences are your own! I will not be responsible for any law liability to this content. ❗   
