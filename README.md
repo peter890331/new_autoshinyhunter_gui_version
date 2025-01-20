@@ -387,7 +387,7 @@ For users, you can directly download the final version in Releases, it contains 
      &nbsp;&nbsp;&nbsp;*Start time: 20XX-XX-XX XX\:XX:XX.XXXXXX*
 
      At this point you will see your phone's screen project to computer automatically,  
-     <img src= "https://github.com/peter890331/new_autoshinyhunter_gui_version/blob/figures/project%20phone's%20screen.png" width="500px">
+     <img src= "https://github.com/peter890331/new_autoshinyhunter_gui_version/blob/figures/project%20phone's%20screen%20to%20computer.png" width="500px">
      
      there are three programs in total.  
      <img src= "https://github.com/peter890331/new_autoshinyhunter_gui_version/blob/figures/minimized.png" width="200px">
