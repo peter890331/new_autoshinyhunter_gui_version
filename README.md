@@ -454,8 +454,8 @@ After clicking "作者介紹", will bring up the introduce about me and some of 
 <img src= "https://github.com/peter890331/new_autoshinyhunter_gui_version/blob/figures/author.png" width="300px">
 
 ---
-
-## Some screen recording when using
+## Some examples when using
+### screen record
 These videos are the gains of my actual use for a period of time.  
 Includes previously captured using some [older script][1]s.  
 (Click in to download to watch the full video.)
@@ -472,7 +472,7 @@ Includes previously captured using some [older script][1]s.
   <img src="https://github.com/peter890331/new_autoshinyhunter_gui_version/blob/figures/ezgif-7-615d77c1e1%20(1).gif" width="200" height=auto>
 </a>
 
-## Some screenshot when using
+### screenshot
 These screenshots are my actual usage, including testing while developing, I also like to use the script while doing other things, while I focus on other things, the script will continue to click pokémons for me.  
 Includes previously captured using [older script][1].
 
@@ -503,7 +503,7 @@ Includes previously captured using [older script][1].
 <img src= "https://github.com/peter890331/new_autoshinyhunter_gui_version/blob/figures/new_autoshinyhunter_v4.0/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2%202024-10-30%20234051.png" width="100px">
 <p>
 
-## Some live stream when using
+### live stream
 This is the playlist of live stream of my actual use, occasionally live stream.  
 The right side of each live stream will show current pokémons to check on, and the down side will also have current description.
 
