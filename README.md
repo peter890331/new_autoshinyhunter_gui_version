@@ -516,6 +516,7 @@ Includes previously captured using [older script][1].
 <img src= "https://github.com/peter890331/new_autoshinyhunter_gui_version/blob/figures/new_autoshinyhunter_v4.0/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2%202024-10-27%20230831.png" width="100px">
 <img src= "https://github.com/peter890331/new_autoshinyhunter_gui_version/blob/figures/new_autoshinyhunter_v4.0/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2%202024-10-28%20173747.png" width="100px">
 <img src= "https://github.com/peter890331/new_autoshinyhunter_gui_version/blob/figures/new_autoshinyhunter_v4.0/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2%202024-10-30%20234051.png" width="100px">
+<img src= "https://github.com/peter890331/new_autoshinyhunter_gui_version/blob/figures/new_autoshinyhunter_v4.0/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2%202025-02-18%20151617.png" width="100px">
 <p>
 
 ### live stream
