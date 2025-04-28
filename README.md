@@ -15,11 +15,6 @@ new_autoshinyhunter_v4.0, made by Peter Yu.
 ### The consequences are your own! I will not be responsible for any law liability to this content. ❗    
  <img src= "https://github.com/peter890331/new_autoshinyhunter_gui_version/blob/figures/Pok%C3%A9mon%20GO%20icon.png" width="300px">
 
-To see examples can go to [Some examples when using][14] first.  
-There may be an tutorial video later, when I have time.
-
-[14]: https://github.com/peter890331/new_autoshinyhunter_gui_version#some-examples-when-using
-
 ---
 
 ## Foreword
