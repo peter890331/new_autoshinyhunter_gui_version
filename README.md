@@ -520,7 +520,7 @@ The right side of each live stream will show current pokémons to check on, and 
 
 [Pokémon GO 自製外掛腳本直播][9]
 
-[9]: https://www.youtube.com/watch?v=8h2jUKUrAkY&list=PLN0w7j_rRAO8jQKUtQZqwDHsG4QiPCuCx&pp=gAQB
+[9]: https://www.youtube.com/playlist?list=PLN0w7j_rRAO8jQKUtQZqwDHsG4QiPCuCx
 
 ---
 
