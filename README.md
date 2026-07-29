@@ -5,6 +5,8 @@ new_autoshinyhunter_v4.0, made by Peter Yu.
 
 [1]: https://github.com/peter890331/new_autoshinyhunter_cmd_version
 
+# 沒在維護了！
+
 > 一個在Pokémon GO中自動點擊色違且iv100的寶可夢的外掛腳本。    
 > A game bot script that automatically clicks and only filters to those pokémons that is shiny and iv100 in Pokémon GO.
 >
@@ -559,6 +561,6 @@ to add your own icon, use 'pyinstaller --onefile --windowed --icon=icon.ico XXX.
 
 ---
 
-### ❗ 警告：僅以此練習程式編寫，請勿在遊戲中使用外掛，否則後果自負！本人對此內容不負任何法律責任。 ❗    
-### ❗ WARNING: Practice programming only, please do not use it to cheat on the game!     
+### ❗ 再次警告：僅以此練習程式編寫，請勿在遊戲中使用外掛，否則後果自負！本人對此內容不負任何法律責任。 ❗    
+### ❗ WARNING AGAIN: Practice programming only, please do not use it to cheat on the game!     
 ### The consequences are your own! I will not be responsible for any law liability to this content. ❗    
