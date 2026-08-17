@@ -5,7 +5,7 @@ new_autoshinyhunter_v4.0, made by Peter Yu.
 
 [1]: https://github.com/peter890331/new_autoshinyhunter_cmd_version
 
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=22&pause=1000&color=36BCF7&center=false&vCenter=false&width=600&lines=No+longer+maintained,+but+still+work.;沒在維護了，但還能用。" alt="Typing SVG" /></a>
+<a href="https://github.com/peter890331/new_autoshinyhunter_gui_version"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=22&pause=1000&color=36BCF7&center=false&vCenter=false&width=600&lines=No+longer+maintained,+but+still+work.;沒在維護了，但還能用。" alt="Typing SVG" /></a>
 
 > 一個在Pokémon GO中自動點擊色違且iv100的寶可夢的外掛腳本。    
 > A game bot script that automatically clicks and only filters to those pokémons that is shiny and iv100 in Pokémon GO.
