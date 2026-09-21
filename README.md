@@ -285,7 +285,7 @@ For users, you can directly download the final version in Releases, it contains 
      &nbsp;&nbsp;&nbsp;*The phone is ready!*
  
      \- 請點擊下方選擇手機連接模式，  
-     &nbsp;&nbsp;&nbsp;*Please click below to select the phone connect mode,*
+     &nbsp;&nbsp;&nbsp;*Please click below to select the phone connect mode.*
      
      &nbsp;&nbsp;&nbsp;USB連接：  請點擊 * USB-連接模式（建議）、  
      &nbsp;&nbsp;&nbsp;*USB connection: Please click * "USB-連接模式" (recommended)、*
@@ -453,7 +453,7 @@ For users, you can directly download the final version in Releases, it contains 
 
 ---
 
-## About anthor
+### About anthor
 #### Home page
 About me and some of this script's introduction, can go to the upper left "作者介紹" to get it.
 
